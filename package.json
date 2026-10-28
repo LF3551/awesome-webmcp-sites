@@ -1,0 +1,9 @@
+{
+  "name": "awesome-webmcp-sites",
+  "private": true,
+  "type": "module",
+  "description": "Verifier scripts for the awesome-webmcp-sites list",
+  "devDependencies": {
+    "playwright-core": "^1.50.0"
+  }
+}

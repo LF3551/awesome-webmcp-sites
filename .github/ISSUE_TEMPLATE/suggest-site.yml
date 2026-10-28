@@ -1,0 +1,27 @@
+name: Suggest a site
+description: Suggest a live site that exposes WebMCP tools
+title: "Add: "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: A page that registers tools when it loads
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What can an agent do there?
+      description: One sentence, factual, without marketing wording
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checks
+      options:
+        - label: The page registers at least one tool on load (document.modelContext.registerTool, provideContext or a form with toolname)
+          required: true
+        - label: I built or own this site (tick only if true)

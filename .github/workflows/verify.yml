@@ -1,0 +1,30 @@
+name: Verify listed sites
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npx playwright-core install --with-deps chromium
+      - id: verify
+        run: node .github/scripts/verify-all.mjs
+      - name: Open an issue for sites that stopped registering tools
+        if: steps.verify.outputs.failed != '0'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Listed sites that stopped registering WebMCP tools
+          content-filepath: ./report.md
+          labels: maintenance
