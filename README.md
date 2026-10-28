@@ -41,12 +41,12 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 ## Online shops and brands
 
 - [Allbirds](https://www.allbirds.com/) - Shoes and clothing store; agents can search the catalog, browse the store and read product details.
-- [Alo Yoga](https://www.aloyoga.com/de-ch) - Yoga clothing and accessories store; agents can search the catalog and browse products.
+- [Alo Yoga](https://www.aloyoga.com/) - Yoga clothing and accessories store; agents can search the catalog and browse products.
 - [Away](https://www.awaytravel.com/) - Travel essentials store; agents can search the catalog and read product details.
 - [Bestprice](https://www.bestprice.gr/) - Greek price comparison site; agents can search products and open the results.
 - [Brooklinen](https://www.brooklinen.com/) - Bedding store; agents can search the catalog and browse products.
 - [Dupe.com](https://dupe.com/) - Finds affordable alternatives to designer products; agents can search for dupes.
-- [Glossier](https://www.glossier.com/en-ch) - Beauty store; agents can search the catalog and browse products.
+- [Glossier](https://www.glossier.com/) - Beauty store; agents can search the catalog and browse products.
 - [Ippodo Tea](https://ippodotea.com/) - Family-run Kyoto tea company; agents can recommend teas and read brewing guides.
 - [Reebok](https://www.reebok.com/) - Athletic shoes and apparel; agents can search the catalog and browse the store.
 
@@ -54,7 +54,7 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 
 - [Airport Lounge List](https://airportloungelist.com/) - Search 2,600+ airport lounges at 870+ airports; agents can look up lounges by airport and read lounge details.
 - [eSIM Data Plans](https://flo-voice1.com/esim) - Data eSIMs for travelers; agents can list plans and buy a plan.
-- [Fever](https://feverup.com/en) - Discover and book events and experiences; agents can search plans, toggle favorites and list cities.
+- [Fever](https://feverup.com/) - Discover and book events and experiences; agents can search plans, toggle favorites and list cities.
 - [NaCzarter](https://naczarter.pl/en/developers/webmcp) - Charter booking site; agents can search charters, get quotes and read charter details.
 
 ## Finance, jobs and business
@@ -74,7 +74,7 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [Customer.io](https://customer.io/) - Customer engagement platform; agents can open product pages and start a free trial.
 - [Fly.io](https://fly.io/) - App hosting on hardware-isolated VMs; agents can list resources, open the quickstart and navigate.
 - [Glama](https://glama.ai/) - Directory of MCP servers, scanned and scored; agents can search servers.
-- [Intlayer](https://intlayer.org/en-GB) - Internationalization and content management library; agents can search and list its documentation.
+- [Intlayer](https://intlayer.org/) - Internationalization and content management library; agents can search and list its documentation.
 - [MCP-B Docs](https://docs.mcp-b.ai/) - WebMCP documentation with tutorials, polyfills and React packages; agents can read docs info.
 - [Model Context Protocol](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro) - Documentation of the Model Context Protocol; agents can search docs, read pages and navigate.
 - [Nodecraft](https://nodecraft.com/) - Game server hosting; agents can list supported games and locations and search its knowledge base.

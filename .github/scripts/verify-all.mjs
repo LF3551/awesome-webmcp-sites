@@ -4,7 +4,7 @@ import { chromium } from 'playwright-core';
 import { detectWith, launchOptions } from './detect.mjs';
 import { parseEntries } from './readme.mjs';
 
-const entries = parseEntries(readFileSync('README.md', 'utf8')).filter((e) => !['Contents', 'FAQ'].includes(e.section));
+const entries = parseEntries(readFileSync('README.md', 'utf8')).filter((e) => !['Contents', 'FAQ'].includes(e.section)).slice(0, Number(process.env.VERIFY_LIMIT) || undefined);
 const browser = await chromium.launch(launchOptions());
 const results = [];
 let next = 0;
