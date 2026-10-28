@@ -48,6 +48,7 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [Dupe.com](https://dupe.com/) - Finds affordable alternatives to designer products; agents can search for dupes.
 - [Glossier](https://www.glossier.com/) - Beauty store; agents can search the catalog and browse products.
 - [Ippodo Tea](https://ippodotea.com/) - Family-run Kyoto tea company; agents can recommend teas and read brewing guides.
+- [Kith](https://www.kith.com/) - Fashion and lifestyle store; agents can search the catalog, browse the store and read product details.
 - [Reebok](https://www.reebok.com/) - Athletic shoes and apparel; agents can search the catalog and browse the store.
 - [Rothy's](https://rothys.com/) - Shoes and bags store; agents can search the catalog, browse the store and read product details.
 
