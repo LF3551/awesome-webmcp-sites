@@ -4,7 +4,7 @@ Live websites that expose tools to AI agents with WebMCP, each one verified in a
 
 [![Verify listed sites](https://github.com/LF3551/awesome-webmcp-sites/actions/workflows/verify.yml/badge.svg)](https://github.com/LF3551/awesome-webmcp-sites/actions/workflows/verify.yml)
 
-120 sites and 1109 tools, verified on 2026-10-28.
+121 sites and 1121 tools, verified on 2026-10-28.
 
 [WebMCP](https://github.com/webmachinelearning/webmcp) is a proposed web standard that lets a page register tools for AI agents: a name, a description, a JSON Schema and a function. An agent calls `search_products` instead of guessing which button to click. This list collects real sites that already do it, so you can see what good tools look like and test your agent against them.
 
@@ -49,6 +49,7 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [Glossier](https://www.glossier.com/) - Beauty store; agents can search the catalog and browse products.
 - [Ippodo Tea](https://ippodotea.com/) - Family-run Kyoto tea company; agents can recommend teas and read brewing guides.
 - [Reebok](https://www.reebok.com/) - Athletic shoes and apparel; agents can search the catalog and browse the store.
+- [Rothy's](https://rothys.com/) - Shoes and bags store; agents can search the catalog, browse the store and read product details.
 
 ## Travel, events and local services
 
