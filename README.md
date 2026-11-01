@@ -1,7 +1,7 @@
 # Awesome WebMCP Sites [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Live websites that expose tools to AI agents with WebMCP, each one verified in a real browser and re-checked every week.
-[![M8ven Score](https://m8ven.ai/badge/mcp/lf3551/awesome-webmcp-sites)](https://m8ven.ai/mcp/lf3551/awesome-webmcp-sites?s=readme)
+
 [![Verify listed sites](https://github.com/LF3551/awesome-webmcp-sites/actions/workflows/verify.yml/badge.svg)](https://github.com/LF3551/awesome-webmcp-sites/actions/workflows/verify.yml)
 
 121 sites and 1121 tools, verified on 2026-10-28.
