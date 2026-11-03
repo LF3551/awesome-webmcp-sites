@@ -99,6 +99,7 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [JSON-stat WebMCP Explorer](https://jsonstat.com/webmcp/?url=https%3A%2F%2Fjson-stat.org%2Fsamples%2Fcollection.json) - Explore JSON-stat endpoints; agents can fetch datasets, inspect metadata and change the view.
 - [Kakeklar](https://kakeklar.no/?gjester=12&alder=6) - Free children's birthday calculator; agents can plan a party and get a shopping list.
 - [QR Code Crafter](https://qrcodecrafter.com/) - Free static QR codes without an account; agents can generate verified and bulk QR codes.
+- [RemplirPDF](https://remplirpdf.fr/) - French rental document templates such as leases and rent receipts; agents can list the templates and open one in the online editor to fill it.
 - [Scholar Sidekick](https://scholar-sidekick.com/integrations/webmcp) - Seven citation tools: agents can verify citations and audit bibliographies.
 - [Simple Tool Stack](https://simpletoolstack.com/) - Free in-browser image and text tools; agents can discover the available tools.
 - [SimplePDF](https://ai.simplepdf.com/editor) - Fill out and sign PDFs in the browser; agents can set field values and drive the embedded editor.
