@@ -64,6 +64,7 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [Carejobs](https://carejobs.now/) - Search open nursing, allied health and care jobs; agents can search jobs and check pay.
 - [Coinranking](https://coinranking.com/chart/coin/Qwsogvtv82FCd+bitcoin-btc/price) - Cryptocurrency price tracker; agents can drive the Pro Chart through tools.
 - [Corpus](https://corpuslaw.us/) - Company formation in all 50 US states; agents can draft a formation application and search state and local requirements.
+- [CorpusIQ](https://www.corpusiq.io/) - Business intelligence over company data spread across separate tools; agents can look up product details and check which business tools it connects to.
 - [Independent Insurance Agencies](https://independentinsuranceagencies.com/) - Directory of independent insurance agency offices in the US; agents can search offices by place and find and read state and town pages.
 - [Longbridge](https://longbridge.com/sg) - Stock trading platform for Singapore; agents can read page context and search stocks and news.
 - [Settled Estate](https://settledestate.com/webmcp/) - Browser tools to search estate guidance and compare options for online wills.
