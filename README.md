@@ -183,6 +183,7 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [WebMCP Store Demo](https://andreinwald.github.io/webmcp-demo/) - Demo shop where agents list store items, add them to the cart and show the cart.
 - [WebMCP Travel](https://travel-demo.bandarra.me/) - Flight search demo with a searchFlights tool.
 - [WebMCP zaMaker](https://googlechromelabs.github.io/webmcp-tools/demos/pizza-maker/) - Chrome Labs pizza builder where agents set size, style and toppings.
+- [webmcp-tour](https://fboldo.github.io/webmcp-tour/demo/) - Guided-tour demo where agents list the page controls, highlight and explain one at a time, and wait for the user to interact.
 - [Webroom](https://webroom.openai.chatgpt.site/) - Private browser photo editor with manual controls that agents can drive.
 - [WordPress Playground](https://playground.wordpress.net/) - WordPress running in the browser; agents can execute PHP and send requests.
 - [WSG WebMCP Experiment](https://mgifford.github.io/wsg-webmcp-experiment/) - Web Sustainability Guidelines experiment; agents can search guidelines and success criteria.
