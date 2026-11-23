@@ -12,6 +12,8 @@ A live website whose page registers WebMCP tools **when it loads**, either with 
 2. Every tool the page registers is recorded. The pull request is accepted when at least one tool or `toolname` form is found.
 3. The same check runs weekly on every listed site. A site that stops registering tools is reported in an issue and removed after review.
 
+The recording shim exposes `registerTool`, `getTools` and `executeTool` so a page can check for those methods before registering. Its `executeTool` always rejects and never runs a tool callback. Passing this check establishes registration on load, not successful execution or native browser-agent interoperability.
+
 Tools that appear only after a click, on another page or behind a login are not seen. Submit a page where at least one tool registers on load, for example your home page or a tool page.
 
 ## How to add a site
