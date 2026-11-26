@@ -95,6 +95,7 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 ## Tools and utilities
 
 - [Admin Toolkit](https://admintoolkit.io/) - Browser-based diagnostics for admins: agents can check AI crawler access, validate llms.txt and run DNS lookups.
+- [AI Science Tracker](https://aisciencetracker.org/) - Catalog of AI-enabled scientific discoveries; agents can search discoveries and AI-found vulnerabilities and open a record with its original source.
 - [Archipelago](https://warrenperez.com/en/archipelago/) - Maps a Notion workspace for free; agents can read service details and output.
 - [Cloud and DevSecOps Tools](https://www.alekseialeinikov.com/en/tools) - Free cloud and security tools: agents can check a GCP IAM policy, pick compute or a database, explain or convert cron expressions, analyze a JWT and search the blog.
 - [Cocktail](https://cocktail.glass/) - Browse 500 cocktail recipes by ingredient, glass or category; agents can search and fetch recipes.
