@@ -26,6 +26,7 @@ const SHIM = `(() => {
     provideContext(ctx) { for (const t of (ctx && ctx.tools) || []) add(t); },
     clearContext() {},
     getTools() { return captured.slice(); },
+    async executeTool() { throw new Error('This verifier records registrations but does not execute tools.'); },
     addEventListener() {}, removeEventListener() {}, dispatchEvent() { return true; },
   };
   const define = (target) => { try { Object.defineProperty(target, 'modelContext', { value: mc, configurable: true }); } catch (e) {} };

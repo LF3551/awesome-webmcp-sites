@@ -16,6 +16,19 @@ test('browser captures registered tools and ignores plain pages', { skip: proces
     res.setHeader('content-type', 'text/html');
     if (req.url === '/tools') {
       res.end(`<script>if ('modelContext' in document) document.modelContext.registerTool({ name: 'search_items', description: 'Search', inputSchema: { type: 'object' }, execute: async () => 'ok' });</script><form toolname="contact" tooldescription="Send a message"></form>`);
+    } else if (req.url === '/complete-api') {
+      res.end(`<script>
+        const mc = document.modelContext;
+        if (['registerTool', 'getTools', 'executeTool'].every((name) => typeof mc[name] === 'function')) {
+          let executed = false;
+          const tool = { name: 'guarded_search', description: 'Search', execute: async () => { executed = true; return 'ok'; } };
+          mc.registerTool(tool);
+          mc.executeTool(tool, {}).then(
+            () => document.title = 'Unexpected execution',
+            () => document.title = executed ? 'Callback executed' : 'Execution rejected'
+          );
+        }
+      </script>`);
     } else {
       res.end('<p>No tools here. document.modelContext.registerTool is only mentioned in text.</p>');
     }
@@ -27,6 +40,10 @@ test('browser captures registered tools and ignores plain pages', { skip: proces
     assert.deepEqual(hit.tools.map((t) => t.name), ['search_items']);
     assert.deepEqual(hit.forms.map((f) => f.name), ['contact']);
     assert.ok(hit.ok);
+    const guarded = await detectWith(browser, `http://127.0.0.1:${port}/complete-api`);
+    assert.deepEqual(guarded.tools.map((t) => t.name), ['guarded_search']);
+    assert.equal(guarded.title, 'Execution rejected');
+    assert.ok(guarded.ok);
     const miss = await detectWith(browser, `http://127.0.0.1:${port}/`);
     assert.equal(miss.ok, false);
   } finally {
