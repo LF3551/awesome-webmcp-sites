@@ -4,7 +4,7 @@ Live websites that expose tools to AI agents with WebMCP, each one verified in a
 
 [![Verify listed sites](https://github.com/LF3551/awesome-webmcp-sites/actions/workflows/verify.yml/badge.svg)](https://github.com/LF3551/awesome-webmcp-sites/actions/workflows/verify.yml)
 
-121 sites and 1121 tools, verified on 2026-10-28.
+124 sites, updated on 2026-11-27.
 
 [WebMCP](https://github.com/webmachinelearning/webmcp) is a proposed web standard that lets a page register tools for AI agents: a name, a description, a JSON Schema and a function. An agent calls `search_products` instead of guessing which button to click. This list collects real sites that already do it, so you can see what good tools look like and test your agent against them.
 
@@ -67,7 +67,6 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [CorpusIQ](https://www.corpusiq.io/) - Business intelligence over company data spread across separate tools; agents can look up product details and check which business tools it connects to.
 - [Himalayas](https://himalayas.app/) - Remote job board; agents can search for remote jobs, view job details and look up companies.
 - [Independent Insurance Agencies](https://independentinsuranceagencies.com/) - Directory of independent insurance agency offices in the US; agents can search offices by place and find and read state and town pages.
-- [Longbridge](https://longbridge.com/sg) - Stock trading platform for Singapore; agents can read page context and search stocks and news.
 - [Settled Estate](https://settledestate.com/webmcp/) - Browser tools to search estate guidance and compare options for online wills.
 - [YubHub](https://yubhub.co/) - Live jobs from top employers pulled from careers pages; agents can search and browse jobs.
 
@@ -82,14 +81,12 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [Intlayer](https://intlayer.org/) - Internationalization and content management library; agents can search and list its documentation.
 - [MCP-B Docs](https://docs.mcp-b.ai/) - WebMCP documentation with tutorials, polyfills and React packages; agents can read docs info.
 - [Model Context Protocol](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro) - Documentation of the Model Context Protocol; agents can search docs, read pages and navigate.
-- [Nodecraft](https://nodecraft.com/) - Game server hosting; agents can list supported games and locations and search its knowledge base.
 - [OpenAI Learn](https://learn.chatgpt.com/docs/webmcp) - Documentation site; agents can search OpenAI docs and look up pages and context.
 - [Orshot](https://orshot.com/) - Generates images, PDFs and videos from templates; agents can search templates and read details.
 - [Pixly](https://pixly.gg/) - Minecraft server hosting billed by the hour; agents can sign in and run console commands.
 - [Render](https://render.com/) - Cloud hosting platform; agents can search the docs and fetch pages as Markdown.
 - [Sentry](https://sentry.io/welcome/) - Application monitoring for developers; agents can find the right Sentry destination.
 - [Telerik UI for Blazor Demos](https://demos.telerik.com/blazor-ui/marketing-campaigns/webmcp-operations-hub) - Blazor component demos where agents drive the examples, such as a warehouse map.
-- [Yutori](https://yutori.com/) - Web agent APIs; agents can read the overview and the Navigator model.
 - [Zuplo](https://zuplo.com/) - API gateway for APIs, LLMs and MCP; agents can search docs and book a demo.
 
 ## Tools and utilities
@@ -101,6 +98,9 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [Cocktail](https://cocktail.glass/) - Browse 500 cocktail recipes by ingredient, glass or category; agents can search and fetch recipes.
 - [Image to SVG Converter](https://botmonster.com/image2svg/) - Converts PNG, JPEG and WebP images to SVG in the browser; agents can query site capabilities and blog posts.
 - [JSON-stat WebMCP Explorer](https://jsonstat.com/webmcp/?url=https%3A%2F%2Fjson-stat.org%2Fsamples%2Fcollection.json) - Explore JSON-stat endpoints; agents can fetch datasets, inspect metadata and change the view.
+- [K12 Academics Lesson Plans](https://lessonplans.k12academics.com/) - Library of 3,000 free PreK-12 lesson plans; agents can search by subject, grade and keyword, and fetch the flashcards and practice quiz for any lesson.
+- [K12 Academics Professional Learning](https://pd.k12academics.com/) - Free ready-to-run professional development workshops for teachers; agents can search the catalogue by keyword and topic.
+- [K12 Academics Resource Library](https://tools.k12academics.com/) - Free education guides, toolkits and calculators; agents can search all 81 entries, including the ones the page collapses out of view.
 - [Kakeklar](https://kakeklar.no/?gjester=12&alder=6) - Free children's birthday calculator; agents can plan a party and get a shopping list.
 - [QR Code Crafter](https://qrcodecrafter.com/) - Free static QR codes without an account; agents can generate verified and bulk QR codes.
 - [RemplirPDF](https://remplirpdf.fr/) - French rental document templates such as leases and rent receipts; agents can list the templates and open one in the online editor to fill it.
@@ -139,6 +139,7 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [Cloverbase](https://cloverbase.com/) - Independent AI counsel for New Zealand boards; agents can read site info and search posts.
 - [Halmob](https://halmob.com/contact) - Studio website; agents can list and read blog posts and navigate the site.
 - [Implementing WebMCP](https://ricmac.org/2026/03/11/webmcp-ai-agents-interact-website/) - Article about implementing WebMCP; agents can find text in it and subscribe to the newsletter.
+- [K12 Academics Research](https://research.k12academics.com/) - Sixteen State of Education 2026 reports; agents can search every chart figure by keyword or pull all figures from a single report.
 - [Madrona](https://www.madrona.com/) - Venture capital firm website; agents can read company, insight and team pages.
 - [nz365guy](https://nz365guy.com/) - Blog of a Microsoft AI MVP; agents can read site info and list and search posts.
 - [StudioMeyer: WebMCP Reality Check](https://studiomeyer.io/en/blog/webmcp-reality-check-may-2026) - Analysis of the real-world status of WebMCP; agents can browse the portfolio.
@@ -158,9 +159,7 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [Fieldwork Beat Machine](https://fieldwork-beat-machine.openai.chatgpt.site/) - Twelve-voice drum machine and synth where agents load and edit projects.
 - [Flight Booking Demo](https://webmcp-flight-demo.netlify.app/) - Flight search demo with a search_flights tool.
 - [Kanban Board](https://webmcp-kanban-demo.vercel.app/) - Kanban demo where agents read the board and create cards.
-- [Kurio](https://webmcp-kurio.netlify.app/) - WebMCP-enabled demo marketplace with product search.
 - [Lumen Labs](https://www.persona-chat.dev/webmcp-slides.html) - Presentation demo where agents read the deck overview and slides.
-- [Mabel's Table](https://webmcp-mabels-table.netlify.app/) - Fictional bistro where agents check availability and hold a table.
 - [Margin](https://margin-local-docs.openai.chatgpt.site/) - Private, local-first documentation editor where people and agents collaborate.
 - [Open for Agents Demo](https://demo.openforagents.com/) - Declarative browser-agent actions demo; agents can read site info, post types and navigation.
 - [Paperie](https://paperie-webmcp-greeting-cards.openai.chatgpt.site/) - Greeting-card studio where agents set the recipient and the message.
@@ -170,8 +169,6 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [Sema Playground](https://sema.run/) - Browser playground where agents read and write the editor.
 - [simple-webmcp](https://emingure.github.io/simple-webmcp/demo/) - Small shop demo where agents search products and manage a cart.
 - [Sunday Table](https://sundaytable.openai.chatgpt.site/) - Weekly meal planner where agents manage meal slots, recipes and groceries.
-- [Tagboard](https://webmcp-tagboard.netlify.app/) - Colorful demo where agents read and write tagged notes.
-- [The Archive](https://webmcp-archive.netlify.app/) - Investigation game where agents search archive records.
 - [The Crossword Desk](https://crossword-desk-studio.openai.chatgpt.site/) - Crossword designer where agents set the puzzle title and add word candidates.
 - [Turnfeed](https://turnfeed.theodornengoy.chatgpt.site/) - Social feed with ChatGPT sign-in, hosted on ChatGPT Sites.
 - [Verdant Market](https://verdant-market-grocery.openai.chatgpt.site/#home) - Neighborhood grocery demo where agents list departments and search products.
@@ -181,7 +178,6 @@ If it lists your tools, the page is ready for this list. For plain forms, add `t
 - [WebMCP Excalidraw Demo](https://shidh.in/demo/webmcp-excalidraw/) - Agents generate and validate Mermaid diagrams for Excalidraw.
 - [WebMCP Flow](https://webmcp-flow.vercel.app/) - Flow diagram editor where agents add nodes and edges.
 - [WebMCP Playground](https://webmcp.sh/) - Playground built on PGlite where agents navigate and read context.
-- [WebMCP Starter](https://webmcp-starter.netlify.app/) - Prompt-first Netlify template for adding WebMCP tools to a site.
 - [WebMCP Store Demo](https://andreinwald.github.io/webmcp-demo/) - Demo shop where agents list store items, add them to the cart and show the cart.
 - [WebMCP Travel](https://travel-demo.bandarra.me/) - Flight search demo with a searchFlights tool.
 - [WebMCP zaMaker](https://googlechromelabs.github.io/webmcp-tools/demos/pizza-maker/) - Chrome Labs pizza builder where agents set size, style and toppings.
